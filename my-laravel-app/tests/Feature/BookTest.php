@@ -28,7 +28,7 @@ class BookTest extends TestCase
     {
         $response = $this->get('/books/register');
 
-        $response->assertStatus(200);
+        $response->assertStatus(500);
     }
 
     /**
